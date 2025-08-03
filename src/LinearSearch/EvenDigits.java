@@ -1,3 +1,5 @@
+package LinearSearch;
+
 public class EvenDigits {
     public static void main(String[]args){
        // int[] arr={123,4,45,6789,012};
@@ -26,7 +28,9 @@ public class EvenDigits {
         //handle i=0 edge case
         if(num==0)return 1;
         //handle negative numbers
-        num=Math.abs(num);
+        if(num<0){
+            num=num*-1;
+        }
         int count=0;
         while(num>0){
             count++;
