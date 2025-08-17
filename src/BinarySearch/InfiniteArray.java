@@ -7,7 +7,7 @@ public class InfiniteArray {
         System.out.println(ans(arr,target));
     }
     static int ans(int[]arr,int target){
-        //find the range
+        //find the rangee
         //lets set the fist window size as 2
         int start=0;
         int end=1;
